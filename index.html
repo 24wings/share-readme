@@ -1,0 +1,6 @@
+<div onclick="add.bind(this)(this)">123</div>
+<script>
+    function add(el) {
+        console.log(this == el)
+    }
+</script>
